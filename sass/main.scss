@@ -1,0 +1,58 @@
+// =========== GOOGLE FONTS ========================================
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&family=Archivo:wght@600;700;900&family=Montserrat:wght@300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+// COLORS
+$clr-primary: #4345e7;
+$clr-dark-500: #333333;
+$clr-dark-700: #111111;
+
+// RESET
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    line-height: 1;
+}
+html {
+    line-height: 1.1;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+// Utilities
+.container {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.padding-inline-default {
+    padding-inline: 1.5rem;
+}
+
+// -------------------------------------- 0 -----------------------------------
+
+// HEADER
+
+// NAVBAR
+@import "base/navbar";
+
+//HERO
+@import "sections/hero";
